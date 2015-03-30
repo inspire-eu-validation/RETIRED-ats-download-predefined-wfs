@@ -11,7 +11,7 @@ Perform OGC CITE tests on WFS
 AND/OR ?
 
 * Perform GetCapabilities request
-* test if the Constraint ImplementsQuery is present in the Capabilities document
+* test if the [Constraint ImplementsQuery](#implementsquery) is present in the Capabilities document
 
 **Reference(s)**: 
 
@@ -32,4 +32,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
- | //fes:Constraint[@name='ImplementsQuery' and ./ows:DefaultValue='TRUE']
+Constraint ImplementsQuery <a name="implementsquery"></a> | //fes:Constraint[@name='ImplementsQuery' and ./ows:DefaultValue='TRUE']
