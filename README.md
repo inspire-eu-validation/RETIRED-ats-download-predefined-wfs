@@ -13,7 +13,8 @@ This Conformance Class contains the following tests:
 
 | Identifier                                                        | Origin | Mechanical | Status   |
 | ----------------------------------------------------------------- | ------ | ---------- | -------- |
-| [A.01.IR2.IR4.TGR46.simpleWFS](A.01.IR2.IR4.TGR46.simpleWFS.md)    | TG     | Yes        | Ready for review    |
+| [A.01.IR2.IR4.TGR46.simpleWFS](A.01.IR2.IR4.TGR46.simpleWFS.md)    | TG     | Defered (OGC)        | Draft    |
+| [A.02.IR3.TGR47.query](A.02.IR3.TGR47.query.md)    | TG     | Defered (OGC)        | Draft    |
 
 
 
