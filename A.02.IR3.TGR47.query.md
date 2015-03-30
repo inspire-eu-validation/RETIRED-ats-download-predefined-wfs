@@ -8,6 +8,11 @@ Implementations shall conform to ISO 19142 Conformance Class 'Query'
 
 Perform OGC CITE tests on WFS
 
+AND/OR ?
+
+* Perform GetCapabilities request
+* test if the Constraint ImplementsQuery is present in the Capabilities document
+
 **Reference(s)**: 
 
 * TG, Req 47
@@ -19,7 +24,7 @@ Automated / defered to OGC CITE tests
 
 **Notes**
 
-Question: defer to OGC Cite test OR create a separate test for this?
+Question: defer to OGC Cite test OR create a separate test for INSPIRE?
 
 ## Contextual XPath references
 
@@ -27,4 +32,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-
+ | //fes:Constraint[@name='ImplementsQuery' and ./ows:DefaultValue='TRUE']
