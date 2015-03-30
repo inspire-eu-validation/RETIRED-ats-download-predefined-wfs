@@ -6,7 +6,7 @@ Implementations shall conform to ISO 19142 Conformance Class 'Query'
 
 **Test method**
 
-Perform OGC CITE tests on WFS
+Perform OGC CITE tests on WFS/FES
 
 AND/OR ?
 
@@ -17,6 +17,7 @@ AND/OR ?
 
 * TG, Req 47
 * IR, Section 3
+* ISO19143 standard, Annex A.1
 
 **Test type**: 
 
