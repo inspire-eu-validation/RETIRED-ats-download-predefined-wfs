@@ -2,7 +2,7 @@
 
 **Purpose**: 
 
-The Extended Capabilities shall indicate the [response language](#responseLanguage) used for the GetCapabilities-Response. Depending on the requested language the value of the [inspire_common:ResponseLanguage](#responseLanguage) corresponds to the current used language. If a [supported languages](#supportedLanguage) was requested, [inspire_common:ResponseLanguage](#responseLanguage) shall correspond to that requested language. If an unsupported language was requested or if no specific language was requested [inspire_common:ResponseLanguage](#responseLanguage) shall correspond to the service [inspire_common:DefaultLanguage](#defaultLanguage)
+The Extended Capabilities must indicate the [response language](#responseLanguage) used for the GetCapabilities-Response. Depending on the requested language the value of the [inspire_common:ResponseLanguage](#responseLanguage) corresponds to the current used language. If a [supported languages](#supportedLanguage) was requested, [inspire_common:ResponseLanguage](#responseLanguage) must correspond to that requested language. If an unsupported language was requested or if no specific language was requested [inspire_common:ResponseLanguage](#responseLanguage) must correspond to the service [inspire_common:DefaultLanguage](#defaultLanguage)
 
 
 **Test method**

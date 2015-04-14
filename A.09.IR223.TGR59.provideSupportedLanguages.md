@@ -2,7 +2,7 @@
 
 **Purpose**: 
 
-The [ExtendedCapabilities](#ExtendedCapabilities) shall contain the [list of supported languages](#listOfSupportedLanguages) indicated in <inspire_common:SupportedLanguages>. This [list of supported languages](#listOfSupportedLanguages) shall consist of exactly one element [inspire_common:DefaultLanguage](#defaultLanguage) indicating the service [default language](#defaultLanguage) and zero or more elements <inspire_common:SupportedLanguage> to indicate all additional [supported language](#supportedLanguage). Regardless of the [language of the response](#responseLanguage), the [list of supported languages](#listOfSupportedLanguages) is invariant for each GetCapabilities-Response.
+The [ExtendedCapabilities](#ExtendedCapabilities) must contain the [list of supported languages](#listOfSupportedLanguages) indicated in <inspire_common:SupportedLanguages>. This [list of supported languages](#listOfSupportedLanguages) must consist of exactly one element [inspire_common:DefaultLanguage](#defaultLanguage) indicating the service [default language](#defaultLanguage) and zero or more elements <inspire_common:SupportedLanguage> to indicate all additional [supported language](#supportedLanguage). Regardless of the [language of the response](#responseLanguage), the [list of supported languages](#listOfSupportedLanguages) is invariant for each GetCapabilities-Response.
 
 
 **Test method**
