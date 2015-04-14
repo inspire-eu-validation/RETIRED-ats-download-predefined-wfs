@@ -22,7 +22,9 @@ This Conformance Class contains the following tests:
 | TGR 52 | TG | No | - |
 | [A.05.IR221.TGR53.serviceMetadata](A.05.IR221.TGR53.serviceMetadata.md) | TG     | Yes       | Draft    |
 | [A.06.IR223.TGR54.listLanguages](A.06.IR223.TGR54.listLanguages.md) | TG     | Yes       | Draft    |
-
+| TGR 55 | TG | No | - |
+| TGR 56 | TG | No | - |
+| [A.07.IR211.TGR57.unsupportedAndDefaultLanguage](A.07.IR211.TGR57.unsupportedAndDefaultLanguage.md)  | TG     | Yes       | Draft    |
 
 <a name="ogccite">OGC's CITE</a> tests could be used to test conformance to the WFS standard. The CITE tests is useful for several TG requirements. Information on the test can be found at [http://cite.opengeospatial.org/](http://cite.opengeospatial.org/) and more specifically at [http://cite.opengeospatial.org/teamengine/about/wfs20/2.0.0/site/index.html](http://cite.opengeospatial.org/teamengine/about/wfs20/2.0.0/site/index.html).
 
