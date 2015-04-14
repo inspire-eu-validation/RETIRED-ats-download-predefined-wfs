@@ -20,7 +20,8 @@ This Conformance Class contains the following tests:
 | [A.03.TGR48.httpGet](A.03.TGR48.httpGet.md)   | TG     | [OGC CITE](#ogccite)       | Draft    |
 | [A.04.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.04.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | TG   | Yes | Draft    |
 | TGR 52 | TG | No | - |
-| [A.05.IR5.TGR53.serviceMetadata](A.05.IR5.TGR53.serviceMetadata.md) | TG     | Yes       | Draft    |
+| [A.05.IR221.TGR53.serviceMetadata](A.05.IR221.TGR53.serviceMetadata.md) | TG     | Yes       | Draft    |
+| [A.06.IR223.TGR54.listLanguages](A.06.IR223.TGR54.listLanguages.md) | TG     | Yes       | Draft    |
 
 
 <a name="ogccite">OGC's CITE</a> tests could be used to test conformance to the WFS standard. The CITE tests is useful for several TG requirements. Information on the test can be found at [http://cite.opengeospatial.org/](http://cite.opengeospatial.org/) and more specifically at [http://cite.opengeospatial.org/teamengine/about/wfs20/2.0.0/site/index.html](http://cite.opengeospatial.org/teamengine/about/wfs20/2.0.0/site/index.html).

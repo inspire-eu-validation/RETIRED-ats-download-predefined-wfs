@@ -14,9 +14,8 @@ INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspi
 
 **Reference(s)**: 
 
-* TG, Req 53
-* TG, Table 4
-* IR, Section 5
+* TG, Req 53, Table 4
+* IR, Section 2.2.1
 
 **Test type**: 
 
