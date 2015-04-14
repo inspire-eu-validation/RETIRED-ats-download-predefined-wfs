@@ -6,7 +6,8 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 **Test method**
 
 * Perform a DescribeStoredQueries-request. Test that the [DescribeStoredQueriesResponse](#DescribeStoredQueriesResponse) contains at least one [StoredQueryDescription](#StoredQueryDescription) with the [Parameters](#Parameter): '[CRS](#CRS)', '[DataSetIdCode](#DataSetIdCode)', '[DataSetIdNamespace](#DataSetIdNamespace)' and '[Language](#Language)'.
-* Perform a GetFeature request with the [Stored Query ID](#storedQueryId) from the [DescribeStoredQueriesResponse](#DescribeStoredQueriesResponse), for each dataset. Obtain the parameter values for [CRS](#CRS) and [Language](#Language) in the request from the Capabilities document and the parameter values for the [DataSetIdCode](#DataSetIdCode) and [DataSetIdNamespace](#DataSetIdNamespace) from the [Metadata document(s) as referred to in the Capabilities document](#metadataDocument) or the Capabilities document. The response of the GetFeature request with the [Stored Query ID](#storedQueryId) must contain at least one feature.
+* Perform a GetCapabilities request and collect all combinations of: [supported CRS](#supportedCRS), [supported language](#supportedLanguage), [SpatialDataSetIdentifier ID code](#SpatialDataSetIdentifierCode) and [SpatialDataSetIdentifier Namespace](#SpatialDataSetIdentifierNamespace)
+* For each combination of [supported CRS](#supportedCRS), [supported language](#supportedLanguage), [SpatialDataSetIdentifier ID code](#SpatialDataSetIdentifierCode) and [SpatialDataSetIdentifier Namespace](#SpatialDataSetIdentifierNamespace): perform a GetFeature request with the [Stored Query ID](#storedQueryId) from the [DescribeStoredQueriesResponse](#DescribeStoredQueriesResponse) as defined in the first step. The parameter values in this request are defined as: [CRS](#CRS) is [supported CRS](#supportedCRS), [Language](#Language) is [supported language](#supportedLanguage), [DataSetIdCode](#DataSetIdCode) is [SpatialDataSetIdentifier ID code](#SpatialDataSetIdentifierCode) and [DataSetIdNamespace](#DataSetIdNamespace) is [SpatialDataSetIdentifier Namespace](#SpatialDataSetIdentifierNamespace). The response of the GetFeature request with the [Stored Query ID](#storedQueryId) must contain a wfs:FeatureCollection in the requested CRS.
 
 
 **Reference(s)**: 
@@ -36,4 +37,7 @@ DataSetIdCode <a name="DataSetIdCode"></a> | /wfs:DescribeStoredQueriesResponse/
 DataSetIdNamespace <a name="DataSetIdNamespace"></a> | /wfs:DescribeStoredQueriesResponse/wfs:StoredQueryDescription/wfs:Parameter[@name='DataSetIdNamespace']
 Language <a name="Language"></a> | /wfs:DescribeStoredQueriesResponse/wfs:StoredQueryDescription/wfs:Parameter[@name='Language']
 Stored Query ID <a name="storedQueryId"></a> | /wfs:DescribeStoredQueriesResponse/wfs:StoredQueryDescription/@id
-Metadata document(s) as referred to in the Capabilities document <a name="metadataDocument"></a> | //wfs:FeatureType/wfs:MetadataURL/@xlink:href
+supported CRS <a name="supportedCRS"></a> | //wfs:DefaultCRS combined with //wfs:OtherCRS
+supported language <a name="supportedLanguage"></a> | //inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language
+SpatialDataSetIdentifier ID code <a name="SpatialDataSetIdentifierCode"></a> | //inspire_dls:ExtendedCapabilities/inspire_dls:SpatialDataSetIdentifier/inspire_common:Code
+SpatialDataSetIdentifier Namespace <a name="SpatialDataSetIdentifierNamespace"></a>| //inspire_dls:ExtendedCapabilities/inspire_dls:SpatialDataSetIdentifier/inspire_common:Namespace
