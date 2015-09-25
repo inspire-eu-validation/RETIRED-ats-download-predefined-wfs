@@ -10,8 +10,7 @@
 
 **Test method**
 
-* Perform a GetCapabilities request without the LANGUAGE-parameter. The [language of the response](#responseLanguage) of the returned Capabilities document must be equal to the [default languages](#defaultLanguage)
-* Perform a GetCapabilities request with the LANGUAGE-parameter set to a [supported languages](#supportedLanguage). The [language of the response](#responseLanguage) of the returned Capabilities document must be equal to the [supported languages](#supportedLanguage).
+* Check that [ResponseLanguage](#responseLanguage) exists. If so, pass the test. Otherwise fail the test.
 
 **Reference(s)**:
 
@@ -30,6 +29,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-inspire_common:DefaultLanguage <a name="defaultLanguage"></a> | /wfs:WFS_Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
-inspire_common:ResponseLanguage <a name="responseLanguage"></a> | /wfs:WFS_Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:ResponseLanguage/inspire_common:Language
-supported language <a name="supportedLanguage"></a>| in //wfs:WFS_Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:SupportedLanguages/*/inspire_common:Language
+ResponseLanguage <a name="responseLanguage"></a> | /wfs:WFS_Capabilities/ows:OperationsMetadata/ows:ExtendedCapabilities/inspire_dls:ExtendedCapabilities/inspire_common:ResponseLanguage/inspire_common:Language

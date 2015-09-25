@@ -30,9 +30,9 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 54     | List of supported languages          | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md) | |
 | 55     | User may select the language         | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
 | 56     | GetCapabilities LANGUAGE parameter   | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
-| 57     | Title & abstract fallback language   | [A.05.IR211.TGR57.unsupportedAndDefaultLanguage](A.05.IR211.TGR57.unsupportedAndDefaultLanguage.md) | |
+| 57     | Title & abstract fallback language   | [A.08.IR223.TGR59.provideDefaultlanguage](A.08.IR223.TGR59.provideDefaultlanguage.md) | |
 | 58     | ResponseLanguage element             | [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md) | |
-| 59     | SupportedLanguages element           | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md) | |
+| 59     | SupportedLanguages element           | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md), [A.08.IR223.TGR59.provideDefaultlanguage](A.08.IR223.TGR59.provideDefaultlanguage.md) | |
 | 60     | Extended capabilities schema         | [A.01.TGR60.extended.capabilities](A.01.TGR60.extended.capabilities.md) | |
 
 ## Tests
@@ -45,7 +45,6 @@ The ATS for the TG Conformance Class 2: Pre-defined WFS: Implement Pre-Defined D
 | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | Draft    |
 | [A.03.IR221.TGR53.serviceMetadata](A.03.IR221.TGR53.serviceMetadata.md)   | Draft    |
 | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | Ready for review |
-| [A.05.IR211.TGR57.unsupportedAndDefaultLanguage](A.05.IR211.TGR57.unsupportedAndDefaultLanguage.md)       | Draft    |
 | [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md)    | Draft    |
 | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md)   | Draft    |
 | [A.08.IR223.TGR59.provideDefaultlanguage](A.08.IR223.TGR59.provideDefaultlanguage.md) | Ready for review |
