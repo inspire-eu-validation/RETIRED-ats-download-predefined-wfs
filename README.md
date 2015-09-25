@@ -30,7 +30,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 54     | List of supported languages          | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md) | |
 | 55     | User may select the language         | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
 | 56     | GetCapabilities LANGUAGE parameter   | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
-| 57     | Title & abstract fallback language   | [A.08.IR223.TGR59.provideDefaultlanguage](A.08.IR223.TGR59.provideDefaultlanguage.md) | |
+| 57     | Title & abstract fallback language   | [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | |
 | 58     | ResponseLanguage element             | [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md) | |
 | 59     | SupportedLanguages element           | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md), [A.08.IR223.TGR59.provideDefaultlanguage](A.08.IR223.TGR59.provideDefaultlanguage.md) | |
 | 60     | Extended capabilities schema         | [A.01.TGR60.extended.capabilities](A.01.TGR60.extended.capabilities.md) | |
@@ -47,7 +47,7 @@ The ATS for the TG Conformance Class 2: Pre-defined WFS: Implement Pre-Defined D
 | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | Ready for review |
 | [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md)    | Draft    |
 | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md)   | Draft    |
-| [A.08.IR223.TGR59.provideDefaultlanguage](A.08.IR223.TGR59.provideDefaultlanguage.md) | Ready for review |
+| [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | Ready for review |
 
 ## Notes
 
