@@ -1,7 +1,11 @@
-# Pre-defined Stored Queries must be provided to make pre-defined datasets available
+# A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery
 
-**Purpose**: 
+**Purpose**:
 Pre-defined Stored Queries must be provided to make pre-defined datasets available. Any possible (i.e. available) combinations of CRS/DataSetIdCode/DataSetIdNamespace/language must be made available through pre-defined stored queries. Pre-defined Stored Queries must use the parameter names 'CRS', 'DataSetIdCode', 'DataSetIdNamespace' and 'Language' to identify the CRS, dataset ID code, dataset ID namespace and language components of a query.
+
+**Prerequisites**
+
+* [A.12.extended.capabilities](A.12.extended.capabilities.md)
 
 **Test method**
 
@@ -10,12 +14,12 @@ Pre-defined Stored Queries must be provided to make pre-defined datasets availab
 * For each combination of [supported CRS](#supportedCRS), [supported language](#supportedLanguage), [SpatialDataSetIdentifier ID code](#SpatialDataSetIdentifierCode) and [SpatialDataSetIdentifier Namespace](#SpatialDataSetIdentifierNamespace): perform a GetFeature request with the [Stored Query ID](#storedQueryId) from the [DescribeStoredQueriesResponse](#DescribeStoredQueriesResponse) as defined in the first step. The parameter values in this request are defined as: [CRS](#CRS) is [supported CRS](#supportedCRS), [Language](#Language) is [supported language](#supportedLanguage), [DataSetIdCode](#DataSetIdCode) is [SpatialDataSetIdentifier ID code](#SpatialDataSetIdentifierCode) and [DataSetIdNamespace](#DataSetIdNamespace) is [SpatialDataSetIdentifier Namespace](#SpatialDataSetIdentifierNamespace). The response of the GetFeature request with the [Stored Query ID](#storedQueryId) must contain a wfs:FeatureCollection in the requested CRS.
 
 
-**Reference(s)**: 
+**Reference(s)**:
 
 * TG, Req 49, Req 50 and Req 51
-* IR, Section 2 and section 4 
+* IR, Section 2 and section 4
 
-**Test type**: 
+**Test type**:
 
 Automated
 

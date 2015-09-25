@@ -1,8 +1,11 @@
-# Download Service provides service metadata
+# A.03.IR221.TGR53.serviceMetadata
 
-**Purpose**: 
-
+**Purpose**:
 INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspire_common:MetadataURL](#inspireCommonMetadataUrl) in an [ExtendedCapabilities](#ExtendedCapabilities) section, OR the [ExtendedCapabilities](#ExtendedCapabilities) section must contain all the INSPIRE Metadata for the Download Service in accordance with Table 4 and the inspire_dls:ExtendedCapabilities schema.
+
+**Prerequisites**
+
+* [A.12.extended.capabilities](A.12.extended.capabilities.md)
 
 **Test method**
 
@@ -12,12 +15,12 @@ INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspi
 * If a [inspire_common:MetadataURL](#inspireCommonMetadataUrl) is provided, request the Metadata document with this URL. Check if the response is a valid Metadata document.
 
 
-**Reference(s)**: 
+**Reference(s)**:
 
 * TG, Req 53, Table 4
 * IR, Section 2.2.1
 
-**Test type**: 
+**Test type**:
 
 Automated
 

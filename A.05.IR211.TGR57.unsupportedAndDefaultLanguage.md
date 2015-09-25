@@ -1,8 +1,14 @@
-# Respond to unsupported language with default language for Capabilities
+# A.05.IR211.TGR57.unsupportedAndDefaultLanguage
 
-**Purpose**: 
-
+**Purpose**:
+Respond to unsupported language with default language for Capabilities.
 If an unsupported language or no language at all is requested for by the client, the Download Service must respond with Capabilities in the [default languages](#defaultLanguage). If a client request specifies an unsupported language, or the parameter is absent in the request, all fields [Title](#title) and [Abstract](#abstract) must be provided in the service [default languages](#defaultLanguage).
+
+**Prerequisites**
+
+* OGC WFS 2.0.0, A.1.1 Simple WFS
+* OGC WFS 2.0.0, A.1.5 HTTP GET
+* [A.12.extended.capabilities](A.12.extended.capabilities.md)
 
 **Test method**
 
@@ -10,12 +16,12 @@ If an unsupported language or no language at all is requested for by the client,
 * Perform a GetCapabilities request with the LANGUAGE-parameter set to an unsupported value (LANGUAGE=FOO). The [language of the response](#responseLanguage) of the returned Capabilities document must be equal to the [default languages](#defaultLanguage)
 * Test if all elements [Title](#title) and [Abstract](#abstract) in the Capabilities documents are identical for both Capabilities documents.
 
-**Reference(s)**: 
+**Reference(s)**:
 
 * TG, Req 57
 * IR, Section 2.1.1
 
-**Test type**: 
+**Test type**:
 
 Automated
 
