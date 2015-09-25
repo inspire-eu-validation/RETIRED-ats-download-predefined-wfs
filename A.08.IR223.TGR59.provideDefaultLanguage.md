@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [A.12.extended.capabilities](A.12.extended.capabilities.md)
+* [A.01.extended.capabilities](A.01.extended.capabilities.md)
 
 **Test method**
 

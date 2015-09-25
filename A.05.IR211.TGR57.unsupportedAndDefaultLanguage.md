@@ -8,7 +8,7 @@ If an unsupported language or no language at all is requested for by the client,
 
 * OGC WFS 2.0.0, A.1.1 Simple WFS
 * OGC WFS 2.0.0, A.1.5 HTTP GET
-* [A.12.extended.capabilities](A.12.extended.capabilities.md)
+* [A.01.extended.capabilities](A.01.extended.capabilities.md)
 
 **Test method**
 

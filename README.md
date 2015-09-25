@@ -26,7 +26,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 50     | Stored queries for all available CRS/DataSetIdCode/DataSetIdnamespace/language combinations | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | |
 | 51     | Fixed stored query parameter names   | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | |
 | 52     | Separate service for each dataset    | | |
-| 53     | INSPIRE metadata in extended Capabilities | [A.01.IR221.TGR53.serviceMetadata](A.01.IR221.TGR53.serviceMetadata.md) | |
+| 53     | INSPIRE metadata in extended Capabilities | [A.03.IR221.TGR53.serviceMetadata](A.03.IR221.TGR53.serviceMetadata.md) | |
 | 54     | List of supported languages          | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md) | |
 | 55     | User may select the language         | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
 | 56     | GetCapabilities LANGUAGE parameter   | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |

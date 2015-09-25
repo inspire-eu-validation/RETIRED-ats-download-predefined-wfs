@@ -7,9 +7,9 @@ This language selection must be reflected in the provided capabilities document.
 
 * OGC WFS 2.0.0, A.1.1 Simple WFS
 * OGC WFS 2.0.0, A.1.5 HTTP GET
-* [A.10.TGR60.extended.capabilities](A.10.TGR60.extended.capabilities)
-* [A.08.IR223.TGR58.provideResponseLanguage](A.08.IR223.TGR58.provideResponseLanguage.md)
-* [A.09.IR223.TGR59.provideSupportedLanguages](A.09.IR223.TGR59.provideSupportedLanguages.md)
+* [A.01.TGR60.extended.capabilities](A.01.TGR60.extended.capabilities)
+* [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md)
+* [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md)
 
 **Test method**
 
