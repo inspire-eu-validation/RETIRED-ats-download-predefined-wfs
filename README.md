@@ -34,7 +34,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 56     | GetCapabilities LANGUAGE parameter   | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
 | 57     | Title & abstract fallback language   | [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | |
 | 58     | ResponseLanguage element             | [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md) | |
-| 59     | SupportedLanguages element           | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md), [A.08.IR223.TGR59.provideDefaultlanguage](A.08.IR223.TGR59.provideDefaultlanguage.md) | |
+| 59     | SupportedLanguages element           | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md), [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | |
 | 60     | Extended capabilities schema         | [A.01.TGR60.extended.capabilities](A.01.TGR60.extended.capabilities.md) | |
 
 ## Tests
