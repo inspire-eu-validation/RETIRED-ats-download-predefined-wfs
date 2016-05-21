@@ -11,9 +11,8 @@ INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspi
 
 * Perform a GetCapabilities request
 * Validate the Capabilities document to the XML schema at http://inspire.ec.europa.eu/schemas/inspire_dls/1.0/inspire_dls.xsd
-* Check if all mandatory metadata elements as specified in Table 4 of the TG exist in the [ExtendedCapabilities](#ExtendedCapabilities) section.
 * If a [inspire_common:MetadataURL](#inspireCommonMetadataUrl) is provided, request the Metadata document with this URL. Check, if the response is a valid Metadata document, by performing schema validation as defined in [A.01.validate](https://github.com/inspire-eu-validation/ats-metadata/blob/master/A.01.validate.md).
-
+* Else, check if all mandatory metadata elements as specified in Table 4 of the TG exist in the [ExtendedCapabilities](#ExtendedCapabilities) section.
 
 **Reference(s)**:
 
@@ -25,7 +24,6 @@ INSPIRE Metadata for the Download Service must EITHER be linked to via an [inspi
 Automated
 
 **Notes**
-
 
 ## Contextual XPath references
 
