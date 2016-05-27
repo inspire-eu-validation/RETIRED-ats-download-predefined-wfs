@@ -1,4 +1,4 @@
-# A.07.IR223.TGR59.provideSupportedLanguages
+# A.06.IR223.TGR59.provideSupportedLanguages
 
 **Purpose**: The Capabilities document must contain a list of supported languages
 

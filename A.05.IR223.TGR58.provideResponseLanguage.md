@@ -1,4 +1,4 @@
-# A.06.IR223.TGR58.provideResponseLanguage
+# A.05.IR223.TGR58.provideResponseLanguage
 
 **Purpose**: The Capabilities document must contain the response language
 

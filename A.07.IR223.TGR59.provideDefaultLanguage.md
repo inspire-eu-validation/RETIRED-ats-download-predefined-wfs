@@ -1,4 +1,4 @@
-# A.08.IR223.TGR59.provideDefaultLanguage
+# A.07.IR223.TGR59.provideDefaultLanguage
 
 **Purpose**: The Capabilities document must contain the default language.
 
