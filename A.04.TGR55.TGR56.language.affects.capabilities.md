@@ -14,7 +14,7 @@ This language selection must be reflected in the provided capabilities document.
 * Let the value of [GetCapabilities OnlineResource](#getcap-href) be ```getcapabilities-url```.
 * Let the value of [SupportedLanguage codes](#supported-languages) be ```language-list```.
 * For each ```language-list``` as ```lang-code```:
-  * Create a GetCapabilities HTTP request by adding the parameters ```SERVICE=WFS```, ```REQUEST=GetCapabilities```, ```VERSION=2.0.0``` and ```LANGUAGE=``` + ```lang-code``` to the ```getcapabilities-url```
+  * Create a GetCapabilities HTTP request by adding the parameters ```SERVICE=WFS```, ```REQUEST=GetCapabilities```, ```ACCEPTVERSIONS=2.0.0``` and ```LANGUAGE=``` + ```lang-code``` to the ```getcapabilities-url```
   * Execute the request. If the returned resource can be parsed as a valid XML document and if the document passes all the tests listed as prerequisites for this test:
     * Check that the [ResponseLanguage code](#response-language) equals the ```lang-code```. If it does not, fail the test for this language.
     * Check that the list of [SupportedLanguage codes](#supported-languages) equals ```language-list```. If not, fail the test for this language.
