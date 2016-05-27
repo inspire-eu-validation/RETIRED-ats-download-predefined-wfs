@@ -29,12 +29,12 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 51     | Fixed stored query parameter names   | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | |
 | 52     | Separate service for each dataset    | | |
 | 53     | INSPIRE metadata in extended Capabilities | [A.03.IR221.TGR53.serviceMetadata](A.03.IR221.TGR53.serviceMetadata.md) | |
-| 54     | List of supported languages          | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md) | |
+| 54     | List of supported languages          | [A.06.IR223.TGR59.provideSupportedLanguages](A.06.IR223.TGR59.provideSupportedLanguages.md) | |
 | 55     | User may select the language         | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
 | 56     | GetCapabilities LANGUAGE parameter   | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | |
-| 57     | Title & abstract fallback language   | [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | |
-| 58     | ResponseLanguage element             | [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md) | |
-| 59     | SupportedLanguages element           | [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md), [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | |
+| 57     | Title & abstract fallback language   | [A.07.IR223.TGR59.provideDefaultLanguage](A.07.IR223.TGR59.provideDefaultLanguage.md) | |
+| 58     | ResponseLanguage element             | [A.06.IR223.TGR58.provideResponseLanguage](A.05.IR223.TGR58.provideResponseLanguage.md) | |
+| 59     | SupportedLanguages element           | [A.06.IR223.TGR59.provideSupportedLanguages](A.06.IR223.TGR59.provideSupportedLanguages.md), [A.07.IR223.TGR59.provideDefaultLanguage](A.07.IR223.TGR59.provideDefaultLanguage.md) | |
 | 60     | Extended capabilities schema         | [A.01.TGR60.extended.capabilities](A.01.TGR60.extended.capabilities.md) | |
 
 ## Tests
@@ -47,9 +47,9 @@ The ATS for the TG Conformance Class 2: Pre-defined WFS: Implement Pre-Defined D
 | [A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery](A.02.IR2.IR4.TGR49.TGR50.TGR51.predefinedStoredQuery.md) | Ready for review    |
 | [A.03.IR221.TGR53.serviceMetadata](A.03.IR221.TGR53.serviceMetadata.md)   | Ready for review    |
 | [A.04.TGR55.TGR56.language.affects.capabilities](A.04.TGR55.TGR56.language.affects.capabilities.md) | Ready for review |
-| [A.06.IR223.TGR58.provideResponseLanguage](A.06.IR223.TGR58.provideResponseLanguage.md)    | Ready for review    |
-| [A.07.IR223.TGR59.provideSupportedLanguages](A.07.IR223.TGR59.provideSupportedLanguages.md)   | Ready for review    |
-| [A.08.IR223.TGR59.provideDefaultLanguage](A.08.IR223.TGR59.provideDefaultLanguage.md) | Ready for review |
+| [A.05.IR223.TGR58.provideResponseLanguage](A.05.IR223.TGR58.provideResponseLanguage.md)    | Ready for review    |
+| [A.06.IR223.TGR59.provideSupportedLanguages](A.06.IR223.TGR59.provideSupportedLanguages.md)   | Ready for review    |
+| [A.07.IR223.TGR59.provideDefaultLanguage](A.07.IR223.TGR59.provideDefaultLanguage.md) | Ready for review |
 
 ## Notes
 
